@@ -1,0 +1,6 @@
+.form-inputs, .experience-form-inputs {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    gap: 1rem;
+    justify-content: space-between;
+}
