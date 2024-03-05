@@ -20,6 +20,37 @@
 
 .cv {
   white-space: pre-line;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+.cv h2, h3, h4, h5, h1 {
+  margin: 0;
+}
+.cv h2 {
+  font-size: 1.5rem;
+ 
+}
+.cv h3 {
+  font-size: 1.3rem;
+}
+.cv h4 {
+  font-size: 1.1rem;
+
+}
+.cv h5 {
+  font-size: .9rem;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  justify-content: center;
+  justify-items: center;
+  gap: 0;
 }
 
 .dates {
@@ -35,4 +66,12 @@ textarea {
 }
 .textarea {
   grid-column: 1/ -1;
+}
+.responsibilities {
+  margin-left: 2rem;
+}
+
+.tab {
+  margin-left: 4rem;
+
 }

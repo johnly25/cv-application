@@ -144,7 +144,7 @@ function Practical({ info, setInfo, edit }) {
 
 function Input(props) {
   function onChange(e) {
-    // props.setInfo({...props.info, [props.name]:e.target.value})
+     props.setInfo({...props.info, [props.name]:e.target.value})
   }
   return (
     <>
@@ -159,7 +159,7 @@ function Input(props) {
 
 function TextArea(props) {
   function onChange(e) {
-    // props.setInfo({...props.info, [props.name]:e.target.value})
+     props.setInfo({...props.info, [props.name]:e.target.value})
   }
   return (
     <>
